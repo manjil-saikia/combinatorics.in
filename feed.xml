@@ -1,0 +1,23 @@
+---
+layout: null
+permalink: /feed.xml
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>{{ site.title }}</title>
+  <link href="{{ '/feed.xml' | absolute_url }}" rel="self"/>
+  <link href="{{ '/' | absolute_url }}"/>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>{{ '/' | absolute_url }}</id>
+  <author><name>{{ site.author.name }}</name></author>
+  {% assign courses = site.courses | sort: 'weight' %}
+  {% for c in courses %}
+  <entry>
+    <title>{{ c.title | xml_escape }}</title>
+    <link href="{{ c.url | absolute_url }}"/>
+    <id>{{ c.url | absolute_url }}</id>
+    <updated>{{ site.time | date_to_xmlschema }}</updated>
+    <summary>{{ c.card | xml_escape }}</summary>
+  </entry>
+  {% endfor %}
+</feed>
