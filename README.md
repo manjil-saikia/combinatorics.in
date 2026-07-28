@@ -9,18 +9,6 @@ lecture is a one-line edit.
 
 ---
 
-## Running it locally
-
-```bash
-bundle install
-bundle exec jekyll serve --livereload
-# http://localhost:4000
-```
-
-The `Gemfile` pins `github-pages`, which is the exact gem set GitHub runs, so a
-local preview cannot drift from production.
-
----
 
 ## Deploying
 
