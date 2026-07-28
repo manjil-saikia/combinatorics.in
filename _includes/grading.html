@@ -1,0 +1,19 @@
+{%- assign c = include.course -%}
+{%- assign facets = "var(--facet-left)|var(--facet-top)|var(--facet-right)|var(--accent)" | split: "|" -%}
+{%- if c.grading -%}
+<h4 id="grading">Grading</h4>
+<div class="gradebar" role="img" aria-label="Relative weight of each assessment component">
+  {%- for g in c.grading -%}
+    {%- assign i = forloop.index0 | modulo: 4 -%}
+    <span style="width:{{ g.weight }}%;background:{{ facets[i] }}"></span>
+  {%- endfor -%}
+</div>
+<ul class="gradekey">
+  {%- for g in c.grading -%}
+    {%- assign i = forloop.index0 | modulo: 4 -%}
+    <li><b style="background:{{ facets[i] }}"></b>
+      <span>{{ g.part }} <em>{{ g.weight }}%</em>{% if g.note %} &mdash; {{ g.note }}{% endif %}</span></li>
+  {%- endfor -%}
+</ul>
+{%- if c.grading_note %}<p class="note-p">{{ c.grading_note }}</p>{% endif -%}
+{%- endif -%}

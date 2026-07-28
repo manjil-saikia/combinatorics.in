@@ -1,0 +1,14 @@
+{%- assign c = include.course -%}
+<a class="card" href="{{ c.url | relative_url }}">
+  <span class="thumb">{% include graphic.html name=c.graphic %}</span>
+  <span class="card-in">
+    <span class="code">{{ c.code }}</span>
+    <h3>{{ c.title }}</h3>
+    <p>{{ c.card }}</p>
+    <span class="cmeta">
+      {%- for chip in c.chips %}<span class="chip">{{ chip }}</span>{% endfor -%}
+      <span class="chip on">{{ c.status }}</span>
+    </span>
+    <span class="go">Course page &rarr;</span>
+  </span>
+</a>

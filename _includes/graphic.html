@@ -1,0 +1,13 @@
+{%- comment -%}
+  Renders the graphic named by `include.name`.
+  Add a new one: drop the SVG in _includes/gfx/ and add a `when` clause.
+{%- endcomment -%}
+{% case include.name %}
+  {% when 'hooks' %}{% include gfx/hooks.svg %}
+  {% when 'younglattice' %}{% include gfx/younglattice.svg %}
+  {% when 'qbinom' %}{% include gfx/qbinom.svg %}
+  {% when 'catalan' %}{% include gfx/catalan.svg %}
+  {% when 'permplot' %}{% include gfx/permplot.svg %}
+  {% when 'chain' %}{% include gfx/chain.svg %}
+  {% when 'tiling' %}{% include gfx/tiling.svg %}
+{% endcase %}

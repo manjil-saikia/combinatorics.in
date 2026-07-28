@@ -1,0 +1,27 @@
+<header class="top">
+  <div class="wrap">
+    <a class="mark" href="{{ '/' | relative_url }}">
+      <svg width="20" height="22" viewBox="0 0 20 22" aria-hidden="true">
+        <path d="M10 1 L18.7 6 L10 11 L1.3 6 Z" fill="var(--facet-top)"/>
+        <path d="M1.3 6 L10 11 L10 21 L1.3 16 Z" fill="var(--facet-left)"/>
+        <path d="M18.7 6 L18.7 16 L10 21 L10 11 Z" fill="var(--facet-right)"/>
+      </svg>
+      combinatorics.in
+    </a>
+
+    {%- assign courses_url = '/courses/' | relative_url -%}
+    <nav class="nav" aria-label="Main">
+      <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>Home</a>
+      <a href="{{ courses_url }}"{% if page.url contains '/courses' %} aria-current="page"{% endif %}>Courses</a>
+      <a href="{{ '/about/' | relative_url }}"{% if page.url == '/about/' %} aria-current="page"{% endif %}>About</a>
+    </nav>
+
+    <button class="themebtn" id="theme" type="button" aria-label="Switch colour theme">
+      <svg width="13" height="13" viewBox="0 0 13 13" aria-hidden="true">
+        <path d="M6.5 .6 L12.4 6.5 L6.5 12.4 L.6 6.5 Z" fill="var(--facet-top)"/>
+        <path d="M6.5 .6 L.6 6.5 L6.5 12.4 Z" fill="var(--facet-left)"/>
+      </svg>
+      <span id="themelabel">Dark</span>
+    </button>
+  </div>
+</header>

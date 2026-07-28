@@ -1,0 +1,15 @@
+{%- assign c = include.course -%}
+<h4 id="lectures">Lectures{% if c.lectures %} <span class="dot">&middot;</span> {{ c.lectures | size }}{% endif %}</h4>
+{%- if c.lectures -%}
+<ul class="lecs">
+  {%- for l in c.lectures -%}
+  <li{% if l.kind %} class="{{ l.kind }}"{% endif %}>
+    <span class="n">{{ forloop.index | prepend: '0' | slice: -2, 2 }}</span>
+    <span class="d">{{ l.date }}</span>
+    <span class="t">{{ l.topic }}</span>
+  </li>
+  {%- endfor -%}
+</ul>
+{%- else -%}
+<div class="empty">{{ c.lectures_note | default: "The lecture log will appear here as the term runs." }}</div>
+{%- endif -%}
