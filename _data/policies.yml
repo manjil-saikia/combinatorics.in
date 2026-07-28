@@ -1,0 +1,30 @@
+# Shared course policies for the Ahmedabad University courses.
+# A course opts in with `policy: au` in its front matter and sets its own
+# `late_penalty`. Edit here once and every course that uses it updates.
+
+au:
+  heading: Submissions, late work and collaboration
+
+  submissions:
+    - Due at 11:59 pm on the due date.
+    - Typed in LaTeX, submitted as PDF or printed.
+    - Begin each solution on a new page.
+    - State your sources at the top of each problem, even if you worked independently.
+
+  late: >-
+    Late submissions are penalised {PENALTY}. No extensions, except for
+    approved medical leave covering the day before and the day of the deadline.
+
+  collaboration:
+    - Work on the problems independently first, then collaborate — meaningful collaboration is encouraged.
+    - You must write up your own solutions.
+    - >-
+      At the top of each problem write "Collaborators and sources:" followed by
+      everyone and everything you consulted, or "none". Failure to acknowledge
+      costs 20% of that problem.
+    - "Fine: looking up a standard theorem, formula or technique; using Wolfram Alpha, Mathematica or Python for a calculation."
+    - "Not fine: looking up the problem itself online or in the literature. Once you have solved it, seeking other solutions is welcome."
+
+  footnote: >-
+    Intentional violations may be treated as academic misconduct. Adapted, with
+    thanks, from <a href="https://yufeizhao.com">Yufei Zhao</a>'s course policy page.
