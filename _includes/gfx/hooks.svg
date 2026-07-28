@@ -1,0 +1,26 @@
+<svg viewBox="0 0 152 122" width="152" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Young diagram of the partition 5,4,2,1 with hook lengths written in each cell.">
+<rect x="1" y="1" width="30" height="30" fill="var(--facet-top)" stroke="var(--line)" stroke-width="1"/>
+<text class="lbl" x="16" y="21" text-anchor="middle" font-size="13" fill="var(--on-amber)">8</text>
+<rect x="31" y="1" width="30" height="30" fill="var(--facet-top)" stroke="var(--line)" stroke-width="1"/>
+<text class="lbl" x="46" y="21" text-anchor="middle" font-size="13" fill="var(--on-amber)">6</text>
+<rect x="61" y="1" width="30" height="30" fill="var(--facet-top)" stroke="var(--line)" stroke-width="1"/>
+<text class="lbl" x="76" y="21" text-anchor="middle" font-size="13" fill="var(--on-amber)">4</text>
+<rect x="91" y="1" width="30" height="30" fill="var(--facet-top)" stroke="var(--line)" stroke-width="1"/>
+<text class="lbl" x="106" y="21" text-anchor="middle" font-size="13" fill="var(--on-amber)">3</text>
+<rect x="121" y="1" width="30" height="30" fill="var(--facet-top)" stroke="var(--line)" stroke-width="1"/>
+<text class="lbl" x="136" y="21" text-anchor="middle" font-size="13" fill="var(--on-amber)">1</text>
+<rect x="1" y="31" width="30" height="30" fill="var(--facet-top)" stroke="var(--line)" stroke-width="1"/>
+<text class="lbl" x="16" y="51" text-anchor="middle" font-size="13" fill="var(--on-amber)">6</text>
+<rect x="31" y="31" width="30" height="30" fill="var(--surface-2)" stroke="var(--line)" stroke-width="1"/>
+<text class="lbl" x="46" y="51" text-anchor="middle" font-size="13" fill="var(--muted)">4</text>
+<rect x="61" y="31" width="30" height="30" fill="var(--surface-2)" stroke="var(--line)" stroke-width="1"/>
+<text class="lbl" x="76" y="51" text-anchor="middle" font-size="13" fill="var(--muted)">2</text>
+<rect x="91" y="31" width="30" height="30" fill="var(--surface-2)" stroke="var(--line)" stroke-width="1"/>
+<text class="lbl" x="106" y="51" text-anchor="middle" font-size="13" fill="var(--muted)">1</text>
+<rect x="1" y="61" width="30" height="30" fill="var(--facet-top)" stroke="var(--line)" stroke-width="1"/>
+<text class="lbl" x="16" y="81" text-anchor="middle" font-size="13" fill="var(--on-amber)">3</text>
+<rect x="31" y="61" width="30" height="30" fill="var(--surface-2)" stroke="var(--line)" stroke-width="1"/>
+<text class="lbl" x="46" y="81" text-anchor="middle" font-size="13" fill="var(--muted)">1</text>
+<rect x="1" y="91" width="30" height="30" fill="var(--facet-top)" stroke="var(--line)" stroke-width="1"/>
+<text class="lbl" x="16" y="111" text-anchor="middle" font-size="13" fill="var(--on-amber)">1</text>
+</svg>

@@ -1,0 +1,39 @@
+<svg viewBox="0 0 560 175" width="560" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Three families counted by the fourth Catalan number: a Dyck path, a triangulated hexagon, and a binary tree.">
+<line x1="14" y1="104" x2="158" y2="104" stroke="var(--line)" stroke-width="1.2"/>
+<polyline points="14,104 32,86 50,68 68,86 86,68 104,86 122,104 140,86 158,104" fill="none" stroke="var(--facet-left)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="14" cy="104" r="2.6" fill="var(--facet-left)"/>
+<circle cx="32" cy="86" r="2.6" fill="var(--facet-left)"/>
+<circle cx="50" cy="68" r="2.6" fill="var(--facet-left)"/>
+<circle cx="68" cy="86" r="2.6" fill="var(--facet-left)"/>
+<circle cx="86" cy="68" r="2.6" fill="var(--facet-left)"/>
+<circle cx="104" cy="86" r="2.6" fill="var(--facet-left)"/>
+<circle cx="122" cy="104" r="2.6" fill="var(--facet-left)"/>
+<circle cx="140" cy="86" r="2.6" fill="var(--facet-left)"/>
+<circle cx="158" cy="104" r="2.6" fill="var(--facet-left)"/>
+<text class="lbl" x="86" y="140" text-anchor="middle" font-size="11" fill="var(--muted)">Dyck path</text>
+<polygon points="290.0,14.0 336.8,41.0 336.8,95.0 290.0,122.0 243.2,95.0 243.2,41.0" fill="var(--facet-right)" opacity="0.28" stroke="var(--facet-right)" stroke-width="2.4"/>
+<line x1="290.0" y1="14.0" x2="336.8" y2="95.0" stroke="var(--accent)" stroke-width="2.4"/>
+<line x1="336.8" y1="95.0" x2="243.2" y2="95.0" stroke="var(--accent)" stroke-width="2.4"/>
+<line x1="243.2" y1="95.0" x2="290.0" y2="14.0" stroke="var(--accent)" stroke-width="2.4"/>
+<circle cx="290.0" cy="14.0" r="3.4" fill="var(--facet-left)"/>
+<circle cx="336.8" cy="41.0" r="3.4" fill="var(--facet-left)"/>
+<circle cx="336.8" cy="95.0" r="3.4" fill="var(--facet-left)"/>
+<circle cx="290.0" cy="122.0" r="3.4" fill="var(--facet-left)"/>
+<circle cx="243.2" cy="95.0" r="3.4" fill="var(--facet-left)"/>
+<circle cx="243.2" cy="41.0" r="3.4" fill="var(--facet-left)"/>
+<text class="lbl" x="290" y="140" text-anchor="middle" font-size="11" fill="var(--muted)">Triangulation</text>
+<line x1="470" y1="22" x2="440" y2="58" stroke="var(--line)" stroke-width="2"/>
+<line x1="470" y1="22" x2="500" y2="58" stroke="var(--line)" stroke-width="2"/>
+<line x1="440" y1="58" x2="416" y2="94" stroke="var(--line)" stroke-width="2"/>
+<line x1="440" y1="58" x2="464" y2="94" stroke="var(--line)" stroke-width="2"/>
+<line x1="464" y1="94" x2="440" y2="124" stroke="var(--line)" stroke-width="2"/>
+<line x1="464" y1="94" x2="488" y2="124" stroke="var(--line)" stroke-width="2"/>
+<circle cx="470" cy="22" r="6" fill="var(--facet-top)" stroke="var(--facet-left)" stroke-width="1.6"/>
+<circle cx="440" cy="58" r="6" fill="var(--facet-top)" stroke="var(--facet-left)" stroke-width="1.6"/>
+<circle cx="500" cy="58" r="4" fill="var(--facet-right)" stroke="var(--facet-left)" stroke-width="1.6"/>
+<circle cx="416" cy="94" r="4" fill="var(--facet-right)" stroke="var(--facet-left)" stroke-width="1.6"/>
+<circle cx="464" cy="94" r="6" fill="var(--facet-top)" stroke="var(--facet-left)" stroke-width="1.6"/>
+<circle cx="440" cy="124" r="4" fill="var(--facet-right)" stroke="var(--facet-left)" stroke-width="1.6"/>
+<circle cx="488" cy="124" r="4" fill="var(--facet-right)" stroke="var(--facet-left)" stroke-width="1.6"/>
+<text class="lbl" x="470" y="152" text-anchor="middle" font-size="11" fill="var(--muted)">Binary tree</text>
+</svg>
