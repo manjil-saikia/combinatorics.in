@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<main>
+  <div class="chead">
+    <div class="wrap">
+      {% if page.eyebrow %}<p class="eyebrow">{{ page.eyebrow }}</p>{% endif %}
+      <h1>{{ page.title }}</h1>
+      {% if page.lede %}<p class="lede">{{ page.lede }}</p>{% endif %}
+    </div>
+  </div>
+  <section class="band band--flush">
+    <div class="wrap">
+      <div class="prose">{{ content }}</div>
+    </div>
+  </section>
+</main>
