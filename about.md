@@ -4,7 +4,7 @@ permalink: /about/
 eyebrow: About
 ---
 
-This website collects the teaching material for courses run by
+This website collects the teaching material for the combinatorics courses run by
 [Manjil P. Saikia](https://manjilsaikia.in). For more details about my research, please visit
 [manjilsaikia.in](https://manjilsaikia.in).
 
