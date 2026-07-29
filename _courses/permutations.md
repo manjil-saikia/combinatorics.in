@@ -68,5 +68,5 @@ structure of the symmetric group, covering both classical enumeration and modern
 theories. By integrating geometric, algebraic, and analytic techniques, students investigate how
 permutations can be decomposed, restricted, and quantified.
 
-The course has two major themes: permutation statistics and \(q\)-analogues, and the theory of
+The course has two major themes: permutation statistics and q-analogues, and the theory of
 pattern avoidance.
