@@ -7,7 +7,7 @@
     <h5>Submissions</h5>
     <ul>{% for x in p.submissions %}<li>{{ x }}</li>{% endfor %}</ul>
     <h5>Late policy</h5>
-    <p>{{ p.late | replace: '{PENALTY}', c.late_penalty }}</p>
+    <p>{{ p.late | replace: 'PENALTY_PLACEHOLDER', c.late_penalty }}</p>
     <h5>Collaboration and sources</h5>
     <ul>{% for x in p.collaboration %}<li>{{ x }}</li>{% endfor %}</ul>
     <p class="note-p">{{ p.footnote }}</p>
