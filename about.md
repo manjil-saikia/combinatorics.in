@@ -4,12 +4,11 @@ permalink: /about/
 eyebrow: About
 ---
 
-combinatorics.in collects the teaching material for courses run by
-[Manjil P. Saikia](https://manjilsaikia.in). Research, papers, and talks live separately at
+This website collects the teaching material for courses run by
+[Manjil P. Saikia](https://manjilsaikia.in). For more details about my research, please visit
 [manjilsaikia.in](https://manjilsaikia.in).
 
-Course policies on submissions, late work, and collaboration are shared across the Ahmedabad
-University courses and are reproduced on each course page. They are adapted, with thanks, from
+Some of the course policies on submissions, late work, and collaboration are adapted, with thanks, from
 [Yufei Zhao](https://yufeizhao.com)'s course policy page.
 
 Notes and problem sets are free to read and reuse under
@@ -18,6 +17,4 @@ manjil [at] combinatorics.in.
 
 ## Colophon
 
-Built with Jekyll and hosted on GitHub Pages. Type is Fraunces, Figtree, and Azeret Mono.
-Every diagram on the site is hand-written SVG that inherits the page's colours, so the light and
-dark themes need only one copy of each. Mathematics is typeset with KaTeX.
+Built with Jekyll (helped by Anthropic Claude Opus 5) and hosted on GitHub Pages. Type is Fraunces, Figtree, and Azeret Mono.
