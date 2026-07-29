@@ -23,8 +23,7 @@ au:
       everyone and everything you consulted, or "none". Failure to acknowledge
       costs 20% of that problem.
     - "Fine: looking up a standard theorem, formula or technique; using Wolfram Alpha, Mathematica or Python for a calculation."
-    - "Not fine: looking up the problem itself online or in the literature. Once you have solved it, seeking other solutions is welcome."
+    - "Not fine: looking up the problem itself online or in the literature, or using AI to solve the problem. Once you have solved it, seeking other solutions is welcome."
 
   footnote: >-
-    Intentional violations may be treated as academic misconduct. Adapted, with
-    thanks, from <a href="https://yufeizhao.com">Yufei Zhao</a>'s course policy page.
+    Intentional violations may be treated as academic misconduct.
