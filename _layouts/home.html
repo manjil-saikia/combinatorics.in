@@ -6,7 +6,7 @@ layout: default
     <div class="wrap">
       <div>
         <p class="eyebrow">{{ site.author.name }} &middot; Ahmedabad University</p>
-        <h1>Courses in <em>counting</em>, taught in the open.</h1>
+        <h1>Courses in <em>combinatorics</em> and related topics.</h1>
         <p class="lede">{{ site.description }}</p>
         <a class="btn" href="{{ '/courses/' | relative_url }}">See all courses</a>
         <a class="btn ghost" href="{{ '/about/' | relative_url }}">About this site</a>
@@ -25,7 +25,7 @@ layout: default
     <div class="wrap">
       <div class="band-head">
         <h2>Courses</h2>
-        <span class="note">{{ courses | size }}, all with permanent URLs</span>
+        <span class="note">Total: {{ courses | size }} courses.</span>
       </div>
       <p class="band-sub">{{ page.courses_blurb }}</p>
       <div class="grid">
@@ -37,11 +37,10 @@ layout: default
 
   <section class="band">
     <div class="wrap">
-      <div class="band-head"><h2>How the courses fit together</h2></div>
-      <p class="band-sub">MAT 631 is a sequel to MAT 315/515 Combinatorial Enumeration, and MAT 730 is a sequel to MAT 631. In each case the earlier course is recalled rather than assumed, so you can enter at any point.</p>
+      <div class="band-head"><h2>A note on how the courses fit together</h2></div>
+      <p class="band-sub">MAT 631 is a sequel to MAT 315/515 Combinatorial Enumeration, and MAT 730 is a sequel to MAT 631. In each case the earlier course is recalled rather than assumed, so you can enter at any point. Different iterations of the same course will contain new materials.</p>
       <figure class="gfx">
         {% include graphic.html name='chain' %}
-        <figcaption>Each arrow reads &ldquo;recalls, but does not require&rdquo;.</figcaption>
       </figure>
     </div>
   </section>
