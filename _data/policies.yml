@@ -12,7 +12,7 @@ au:
     - State your sources at the top of each problem, even if you worked independently.
 
   late: >-
-    Late submissions are penalised {PENALTY}. No extensions, except for
+    Late submissions are penalised PENALTY_PLACEHOLDER. No extensions, except for
     approved medical leave covering the day before and the day of the deadline.
 
   collaboration:
