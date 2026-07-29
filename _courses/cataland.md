@@ -3,8 +3,8 @@ code: Lodha Genius Programme
 title: Cataland
 subtitle: A Romance of Many Bijections
 kind: Summer school
-term: "2026"
-status: Upcoming
+term: Summer 2026
+status: Archive
 where: Ashoka University
 weight: 1
 featured: true
@@ -45,7 +45,7 @@ grading:
     note: proof-based, every 2–3 days — individual
 
 lectures:
-lectures_note: This course runs in 2026. The lecture log will be filled in day by day as it goes.
+lectures_note: No lecture log was kept for this run of the course.
 
 sets:
   - label: Baseline Test
