@@ -46,11 +46,11 @@ refs:
     url: https://bookstore.ams.org/mbk-134
 ---
 
-\(q\)-analysis is the study of identities arising from \(q\)-factorials — a generalisation of the
-usual factorial — and \(q\)-binomial coefficients, a subject consisting primarily of identities
+q-analysis is the study of identities arising from q-factorials — a generalisation of the
+usual factorial — and q-binomial coefficients, a subject consisting primarily of identities
 between certain kinds of series and products. A major source of inspiration comes from number
 theory and combinatorics, where both appear naturally via generating functions.
 
-In this course we study integer partitions through the lens of \(q\)-analysis. Classical results
+In this course we study integer partitions through the lens of q-analysis. Classical results
 due to Euler, Jacobi, Cauchy, Sylvester, Rogers, and Ramanujan form the bedrock, and we go on to
 more modern developments due to Bailey and Andrews.
